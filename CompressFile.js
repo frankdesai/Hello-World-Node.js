@@ -5,3 +5,4 @@ fs.createReadStream('input.txt')
 .pipe(zlib.createGzip())
 .pipe(fs.createWriteStream('input.txt.gz'));
 console.log("File Compressed Successfully by Frank. - Change in web reflect to desktop");
+console.log("Understood Github Flow");
